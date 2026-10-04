@@ -89,15 +89,6 @@ Your existing dictionaries should remain in place.
 
 The first flash installs your dictionary/data payload. The second flash updates the firmware behavior while preserving that dictionary/data payload.
 
-## Mode Reference
-
-### BYOK Character Mode
-
-- Turn on: `SAOEUTSDZ/PWOBG`
-- Turn off: `SAO*EUTSDZ/PWOBG`
-
-BYOK mode converts unsupported accented/special characters to simpler plain text.
-
 ## Toggle Dictionary
 
 The included `dictionaries/javelin-toggles.json` file has two kinds of entries:
