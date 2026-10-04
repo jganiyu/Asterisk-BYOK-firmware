@@ -63,7 +63,7 @@ The custom firmware in this repository is firmware-only. It does not contain you
   Final tested custom Asterisk BYOK firmware.
 
 - `dictionaries/javelin-toggles.json`  
-  Toggle dictionary entries for BYOK character mode on/off. The firmware also includes built-in support for these same two mode strokes.
+  Example toggle dictionary entries. The BYOK character mode entries can be used as-is; the numbered dictionary toggles are placeholders for optional user-specific specialty dictionaries.
 
 - `docs/firmware-write-up.md`  
   Saved project write-up.
@@ -98,6 +98,22 @@ The first flash installs your dictionary/data payload. The second flash updates 
 
 BYOK mode converts unsupported accented/special characters to simpler plain text.
 
+## Toggle Dictionary
+
+The included `dictionaries/javelin-toggles.json` file has two kinds of entries:
+
+1. **BYOK character mode toggles**, which are generally useful for anyone using this firmware:
+   - `SAOEUTSDZ/PWOBG` -> `{:set_ascii_output:on}`
+   - `SAO*EUTSDZ/PWOBG` -> `{:set_ascii_output:off}`
+
+2. **Placeholder specialty-dictionary toggles**, which demonstrate how someone could turn optional dictionaries on/off from the keyboard:
+   - `SAOEUTSDZ/1`
+   - `SAO*EUTSDZ/1`
+   - `SAOEUTSDZ/2`
+   - `SAO*EUTSDZ/2`
+
+Those numbered entries point to `example-specialty-dictionary-1.json` and `example-specialty-dictionary-2.json`. Replace those filenames with your own dictionary names, or remove those entries if you do not need specialty dictionary toggles.
+
 ### Embedded Javelin vs Plover HID
 
 - Press the Asterisk’s `B` button normally after boot to switch between embedded Javelin output and Plover-compatible HID mode.
@@ -120,6 +136,5 @@ For Asterisks using the same board target, this should be close to turnkey: user
 
 ```text
 80efaebfd4cc03833b379f9082f655445e3892265c229d88e17c483bff4b799e  firmware/asterisk-byok-toggle-v6-circumflex-vowels-20261004.uf2
-b2c17c7b502bb38eb44a074ff9690ac61984a0902ddede79894a3a46db888b19  dictionaries/javelin-toggles.json
+30b96a9ef79edfe1676ad464e0489fc3dc427953e6457d363c97dfe431deaf71  dictionaries/javelin-toggles.json
 ```
-
