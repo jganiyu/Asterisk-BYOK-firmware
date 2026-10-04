@@ -61,7 +61,7 @@ The custom firmware in this repository is firmware-only. It does not contain you
 
 ## Files
 
-- `firmware/asterisk-byok-toggle-v6-circumflex-vowels-20261004.uf2`  
+- `firmware/asterisk-byok-javelin-firmware.uf2`  
   Final tested custom Asterisk BYOK firmware.
 
 - `dictionaries/javelin-toggles.json`  
@@ -78,7 +78,7 @@ The custom firmware in this repository is firmware-only. It does not contain you
 2. Hold the small **BOOTSEL** button labelled `B`.
 3. While holding `B`, plug the Asterisk into USB.
 4. Release `B` when the `RPI-RP2` drive appears.
-5. Copy `firmware/asterisk-byok-toggle-v6-circumflex-vowels-20261004.uf2` onto the `RPI-RP2` drive.
+5. Copy `firmware/asterisk-byok-javelin-firmware.uf2` onto the `RPI-RP2` drive.
 6. Wait for the drive to disconnect and the Asterisk to reboot.
 
 Your existing dictionaries should remain in place.
@@ -130,6 +130,6 @@ For questions about adapting this approach to another Javelin keyboard, start wi
 ## Checksums
 
 ```text
-80efaebfd4cc03833b379f9082f655445e3892265c229d88e17c483bff4b799e  firmware/asterisk-byok-toggle-v6-circumflex-vowels-20261004.uf2
+80efaebfd4cc03833b379f9082f655445e3892265c229d88e17c483bff4b799e  firmware/asterisk-byok-javelin-firmware.uf2
 30b96a9ef79edfe1676ad464e0489fc3dc427953e6457d363c97dfe431deaf71  dictionaries/javelin-toggles.json
 ```

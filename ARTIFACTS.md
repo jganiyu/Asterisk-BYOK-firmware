@@ -2,7 +2,7 @@
 
 ## Firmware
 
-`firmware/asterisk-byok-toggle-v6-circumflex-vowels-20261004.uf2`
+`firmware/asterisk-byok-javelin-firmware.uf2`
 
 - Board target: Asterisk
 - Purpose: firmware-only BYOK compatibility update
