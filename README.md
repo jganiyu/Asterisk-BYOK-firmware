@@ -125,6 +125,8 @@ The core approach should be reusable, but this UF2 is for the Asterisk target. O
 
 For Asterisks using the same board target, this should be close to turnkey: users mainly need their own dictionary payload installed first.
 
+For questions about adapting this approach to another Javelin keyboard, start with the companion ChatGPT session: [Asterisk-BYOK Firmware Q&A](https://chatgpt.com/s/cx_6ac27efee37881918cecc9b6696c3267).
+
 ## Checksums
 
 ```text
