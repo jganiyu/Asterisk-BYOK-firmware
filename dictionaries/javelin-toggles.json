@@ -1,0 +1,8 @@
+{
+  "SAO*EUTSDZ/1": "{:disable_dictionary:LoTR-terms-1.json}",
+  "SAO*EUTSDZ/2": "{:disable_dictionary:dragonball-2.json}",
+  "SAO*EUTSDZ/PWOBG": "{:set_ascii_output:off}",
+  "SAOEUTSDZ/1": "{:enable_dictionary:LoTR-terms-1.json}",
+  "SAOEUTSDZ/2": "{:enable_dictionary:dragonball-2.json}",
+  "SAOEUTSDZ/PWOBG": "{:set_ascii_output:on}"
+}
