@@ -27,4 +27,4 @@ SHA256: `30b96a9ef79edfe1676ad464e0489fc3dc427953e6457d363c97dfe431deaf71`
 
 ## Companion Q&A
 
-[Asterisk-BYOK Firmware Q&A](https://chatgpt.com/s/cx_6ac27267032081919be05cf355a41701)
+[Asterisk-BYOK Firmware Q&A](https://chatgpt.com/s/cx_6ac27efee37881918cecc9b6696c3267)
