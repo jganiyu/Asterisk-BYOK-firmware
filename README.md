@@ -107,10 +107,10 @@ The included `dictionaries/javelin-toggles.json` file has two kinds of entries:
    - `SAO*EUTSDZ/PWOBG` -> `{:set_ascii_output:off}`
 
 2. **Placeholder specialty-dictionary toggles**, which demonstrate how someone could turn optional dictionaries on/off from the keyboard:
-   - `SAOEUTSDZ/1`
-   - `SAO*EUTSDZ/1`
-   - `SAOEUTSDZ/2`
-   - `SAO*EUTSDZ/2`
+   - `SAOEUTSDZ/1` -> `{:enable_dictionary:example-specialty-dictionary-1.json}`
+   - `SAO*EUTSDZ/1` -> `{:disable_dictionary:example-specialty-dictionary-1.json}`
+   - `SAOEUTSDZ/2` -> `{:enable_dictionary:example-specialty-dictionary-2.json}`
+   - `SAO*EUTSDZ/2` -> `{:disable_dictionary:example-specialty-dictionary-2.json}`
 
 Those numbered entries point to `example-specialty-dictionary-1.json` and `example-specialty-dictionary-2.json`. Replace those filenames with your own dictionary names, or remove those entries if you do not need specialty dictionary toggles.
 
