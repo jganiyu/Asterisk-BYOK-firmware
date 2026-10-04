@@ -3,8 +3,8 @@
 Custom Asterisk/Javelin firmware for using an Asterisk stenography keyboard directly with BYOK while preserving normal laptop/Plover workflows.
 
 > **Start here:** Read the project overview below, then use the companion ChatGPT Q&A task for questions about how this works, how to use it, or what would be needed to adapt the approach for other Javelin keyboards:
->
-> **ChatGPT Session:** [Asterisk-BYOK Firmware Q&A](https://chatgpt.com/s/cx_6ac27267032081919be05cf355a41701)
+
+**ChatGPT Session:** [Asterisk-BYOK Firmware Q&A](https://chatgpt.com/s/cx_6ac27267032081919be05cf355a41701)
 
 ## Project Overview
 
