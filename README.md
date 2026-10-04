@@ -1,6 +1,6 @@
 # Asterisk-BYOK Firmware
 
-Custom Asterisk/Javelin firmware for using an Asterisk stenography keyboard directly with BYOK while preserving normal laptop/Plover workflows.
+Custom Asterisk/Javelin firmware for using an Asterisk stenography keyboard directly with BYOK while preserving standard Javelin/Plover computer workflows.
 
 > **Start here:** Read the project overview below, then use the companion ChatGPT Q&A task for questions about how this works, how to use it, or what would be needed to adapt the approach for other Javelin keyboards:
 
@@ -10,7 +10,7 @@ Custom Asterisk/Javelin firmware for using an Asterisk stenography keyboard dire
 
 ## Project Overview
 
-This project turned the Asterisk into a self-contained Javelin stenography keyboard that can be used both with BYOK and with a normal laptop setup.
+This project turned the Asterisk into a self-contained Javelin stenography keyboard that can be used both with BYOK and in a standard Javelin/Plover computer workflow.
 
 ## Firmware
 
@@ -51,7 +51,7 @@ The Asterisk’s small **BOOTSEL** button, labelled `B`, has two roles:
 
 ## Conclusion
 
-The final setup lets the Asterisk translate onboard, type directly into BYOK as a plain keyboard, preserve accented output on normal computers, and still retain a Plover-compatible mode for laptop workflows.
+The final setup lets the Asterisk translate onboard, type directly into BYOK as a plain keyboard, preserve accented output on standard computers, and still retain a Plover-compatible mode for computer-based steno workflows.
 
 ## Who This Is For
 

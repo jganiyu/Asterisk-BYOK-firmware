@@ -1,6 +1,6 @@
 ## Project Overview
 
-This project turned the Asterisk into a self-contained Javelin stenography keyboard that can be used both with BYOK and with a normal laptop setup.
+This project turned the Asterisk into a self-contained Javelin stenography keyboard that can be used both with BYOK and in a standard Javelin/Plover computer workflow.
 
 ## Firmware
 
@@ -41,4 +41,4 @@ The Asterisk’s small **BOOTSEL** button, labelled `B`, has two roles:
 
 ## Conclusion
 
-The final setup lets the Asterisk translate onboard, type directly into BYOK as a plain keyboard, preserve accented output on normal computers, and still retain a Plover-compatible mode for laptop workflows.
+The final setup lets the Asterisk translate onboard, type directly into BYOK as a plain keyboard, preserve accented output on standard computers, and still retain a Plover-compatible mode for computer-based steno workflows.
