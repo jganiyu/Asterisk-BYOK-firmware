@@ -63,6 +63,8 @@ The custom firmware in this repository is firmware-only. It does not contain you
 
 ## Files
 
+- Latest release: [Asterisk BYOK firmware v2026.10.05](https://github.com/jganiyu/Asterisk-BYOK-firmware/releases/tag/v2026.10.05)
+
 - `firmware/asterisk-byok-javelin-2026-10-05-javelin-061cf7f-pico-e6cfd23.uf2`  
   Current tested custom Asterisk BYOK firmware. The filename includes the build date plus the upstream Javelin engine and Pico firmware source commits used for compatibility tracking.
 
