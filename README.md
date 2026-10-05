@@ -67,17 +67,26 @@ The custom firmware in this repository is firmware-only. It does not contain you
 
 - Latest release: [Asterisk BYOK firmware v2026.10.05](https://github.com/jganiyu/Asterisk-BYOK-firmware/releases/tag/v2026.10.05)
 
-- `firmware/asterisk-byok-javelin-2026-10-05-javelin-061cf7f-pico-e6cfd23.uf2`  
-  Current tested custom Asterisk BYOK firmware. The filename includes the build date plus the upstream Javelin engine and Pico firmware source commits used for compatibility tracking.
+- `firmware/asterisk-byok-javelin-2026-10-05-byok-ccecdf7-pico-dfceebc.uf2`  
+  Current tested custom Asterisk BYOK firmware. The filename includes the build date plus the public BYOK source branch commits used for compatibility tracking.
 
 - `firmware/build-info.json`  
-  Machine-readable build metadata used to track which upstream Javelin commits the firmware was built against.
+  Machine-readable build metadata used to track upstream Javelin commits and the public BYOK branch commits.
 
 - `dictionaries/javelin-toggles.json`  
   Example toggle dictionary entries. The BYOK character mode entries can be used as-is; the numbered dictionary toggles are placeholders for optional user-specific specialty dictionaries.
 
 - `docs/firmware-write-up.md`  
   Saved project write-up.
+
+## Source Branches
+
+The source changes are public and reviewable:
+
+- [`jganiyu/javelin-steno`, branch `asterisk-byok`](https://github.com/jganiyu/javelin-steno/tree/asterisk-byok)
+- [`jganiyu/javelin-steno-pico`, branch `asterisk-byok`](https://github.com/jganiyu/javelin-steno-pico/tree/asterisk-byok)
+
+These branches are kept close to upstream Javelin so the firmware can be rebuilt when Javelin changes its dictionary format or builder output.
 
 ## How To Use This On An Asterisk
 
@@ -87,7 +96,7 @@ The custom firmware in this repository is firmware-only. It does not contain you
 2. Hold the small **BOOTSEL** button labelled `B`.
 3. While holding `B`, plug the Asterisk into USB.
 4. Release `B` when the `RPI-RP2` drive appears.
-5. Copy the latest versioned UF2 from `firmware/` onto the `RPI-RP2` drive. The current production firmware is `firmware/asterisk-byok-javelin-2026-10-05-javelin-061cf7f-pico-e6cfd23.uf2`.
+5. Copy the latest versioned UF2 from `firmware/` onto the `RPI-RP2` drive. The current production firmware is `firmware/asterisk-byok-javelin-2026-10-05-byok-ccecdf7-pico-dfceebc.uf2`.
 6. Wait for the drive to disconnect and the Asterisk to reboot.
 
 Your existing dictionaries should remain in place.
@@ -107,6 +116,8 @@ The included `dictionaries/javelin-toggles.json` file has two kinds of entries:
 1. **BYOK character mode toggles**, which are generally useful for anyone using this firmware:
    - `SAOEUTSDZ/PWOBG` -> `{:set_ascii_output:on}`
    - `SAO*EUTSDZ/PWOBG` -> `{:set_ascii_output:off}`
+
+   Internally, BYOK mode switches to a firmware host layout named `byok_ascii`, which simplifies unsupported accented/special characters into plain keyboard output.
 
 2. **Placeholder specialty-dictionary toggles**, which demonstrate how someone could turn optional dictionaries on/off from the keyboard:
    - `SAOEUTSDZ/1` -> `{:enable_dictionary:example-specialty-dictionary-1.json}`
@@ -139,6 +150,6 @@ For questions about adapting this approach to another Javelin keyboard, start wi
 ## Checksums
 
 ```text
-e1687fa707236f8e24d8815ece67ce7906b965149d135cf0563318c18af89124  firmware/asterisk-byok-javelin-2026-10-05-javelin-061cf7f-pico-e6cfd23.uf2
+c6122fb6044c67872c7bd1e6e434d123dcf162483c0c367d196e6981196514a4  firmware/asterisk-byok-javelin-2026-10-05-byok-ccecdf7-pico-dfceebc.uf2
 30b96a9ef79edfe1676ad464e0489fc3dc427953e6457d363c97dfe431deaf71  dictionaries/javelin-toggles.json
 ```
