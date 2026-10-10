@@ -65,9 +65,9 @@ The custom firmware in this repository is firmware-only. It does not contain you
 
 ## Files
 
-- Latest release: [Asterisk BYOK firmware v2026.10.05](https://github.com/jganiyu/Asterisk-BYOK-firmware/releases/tag/v2026.10.05)
+- Latest firmware: `firmware/asterisk-byok-javelin-2026-10-09-byok-4470311-pico-1e85394.uf2`
 
-- `firmware/asterisk-byok-javelin-2026-10-05-byok-c298dd8-pico-dfceebc.uf2`  
+- `firmware/asterisk-byok-javelin-2026-10-09-byok-4470311-pico-1e85394.uf2`  
   Current tested custom Asterisk BYOK firmware. The filename includes the build date plus the public BYOK source branch commits used for compatibility tracking.
 
 - `firmware/build-info.json`  
@@ -96,7 +96,7 @@ These branches are kept close to upstream Javelin so the firmware can be rebuilt
 2. Hold the small **BOOTSEL** button labelled `B`.
 3. While holding `B`, plug the Asterisk into USB.
 4. Release `B` when the `RPI-RP2` drive appears.
-5. Copy the latest versioned UF2 from `firmware/` onto the `RPI-RP2` drive. The current production firmware is `firmware/asterisk-byok-javelin-2026-10-05-byok-c298dd8-pico-dfceebc.uf2`.
+5. Copy the latest versioned UF2 from `firmware/` onto the `RPI-RP2` drive. The current production firmware is `firmware/asterisk-byok-javelin-2026-10-09-byok-4470311-pico-1e85394.uf2`.
 6. Wait for the drive to disconnect and the Asterisk to reboot.
 
 Your existing dictionaries should remain in place.
@@ -150,6 +150,6 @@ For questions about adapting this approach to another Javelin keyboard, start wi
 ## Checksums
 
 ```text
-8ca72fc07938e77818543d13b7104c6ce1849532db13f49601afe9261804495f  firmware/asterisk-byok-javelin-2026-10-05-byok-c298dd8-pico-dfceebc.uf2
+fb5cfa5482aa81b35e831c86aca5ee49fab6029f46e61f8f54bb76d292258dbb  firmware/asterisk-byok-javelin-2026-10-09-byok-4470311-pico-1e85394.uf2
 30b96a9ef79edfe1676ad464e0489fc3dc427953e6457d363c97dfe431deaf71  dictionaries/javelin-toggles.json
 ```
