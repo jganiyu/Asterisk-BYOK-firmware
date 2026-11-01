@@ -1,8 +1,8 @@
 {
   "firmware": {
-    "file": "firmware/asterisk-byok-javelin-2026-10-12-byok-17e4f39-pico-ce5bd39.uf2",
+    "file": "firmware/asterisk-byok-javelin-2026-11-01-byok-17e4f39-pico-ce5bd39.uf2",
     "sha256": "f9631d274cdc7b11e71dec0fa445dc3ac1e87c36fe8d6ad28fff8cc97a426b09",
-    "build_date": "2026-10-12",
+    "build_date": "2026-11-01",
     "board": "asterisk"
   },
   "upstream": {

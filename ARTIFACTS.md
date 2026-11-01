@@ -2,7 +2,7 @@
 
 ## Firmware
 
-`firmware/asterisk-byok-javelin-2026-10-12-byok-17e4f39-pico-ce5bd39.uf2`
+`firmware/asterisk-byok-javelin-2026-11-01-byok-17e4f39-pico-ce5bd39.uf2`
 
 Only the current production UF2 should be kept in `firmware/`. When a new
 firmware is added, remove superseded UF2 files in the same update.
