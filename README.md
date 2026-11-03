@@ -85,8 +85,8 @@ The custom firmware in this repository is firmware-only. It does not contain you
 
 The source changes are public and reviewable:
 
-- [`jganiyu/javelin-steno`, branch `asterisk-byok-current`](https://github.com/jganiyu/javelin-steno/tree/asterisk-byok-current)
-- [`jganiyu/javelin-steno-pico`, branch `asterisk-byok-current`](https://github.com/jganiyu/javelin-steno-pico/tree/asterisk-byok-current)
+- [`jganiyu/javelin-steno`, branch `asterisk-byok`](https://github.com/jganiyu/javelin-steno/tree/asterisk-byok)
+- [`jganiyu/javelin-steno-pico`, branch `asterisk-byok`](https://github.com/jganiyu/javelin-steno-pico/tree/asterisk-byok)
 
 These branches are kept close to upstream Javelin so the firmware can be rebuilt when Javelin changes its dictionary format or builder output.
 

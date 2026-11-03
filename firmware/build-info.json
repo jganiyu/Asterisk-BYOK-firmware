@@ -18,12 +18,12 @@
   "source": {
     "javelin_steno_byok": {
       "repo": "https://github.com/jganiyu/javelin-steno",
-      "branch": "asterisk-byok-current",
+      "branch": "asterisk-byok",
       "commit": "ea6c493"
     },
     "javelin_steno_pico_byok": {
       "repo": "https://github.com/jganiyu/javelin-steno-pico",
-      "branch": "asterisk-byok-current",
+      "branch": "asterisk-byok",
       "commit": "4ae748e"
     }
   },

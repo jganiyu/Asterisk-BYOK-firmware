@@ -11,8 +11,8 @@ firmware is added, remove superseded UF2 files in the same update.
 - Purpose: firmware-only BYOK compatibility update
 - Preserves existing Javelin dictionary/data payload
 - Built from public BYOK source branches:
-  - `jganiyu/javelin-steno` branch `asterisk-byok-current`, commit `ea6c493`
-  - `jganiyu/javelin-steno-pico` branch `asterisk-byok-current`, commit `4ae748e`
+  - `jganiyu/javelin-steno` branch `asterisk-byok`, commit `ea6c493`
+  - `jganiyu/javelin-steno-pico` branch `asterisk-byok`, commit `4ae748e`
 - Upstream base commits:
   - `jthlim/javelin-steno` commit `7efd1e1`
   - `jthlim/javelin-steno-pico` commit `ba31997`
