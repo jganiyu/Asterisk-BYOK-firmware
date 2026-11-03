@@ -1,30 +1,30 @@
 {
   "firmware": {
-    "file": "firmware/asterisk-byok-javelin-2026-11-01-byok-17e4f39-pico-ce5bd39.uf2",
-    "sha256": "f9631d274cdc7b11e71dec0fa445dc3ac1e87c36fe8d6ad28fff8cc97a426b09",
-    "build_date": "2026-11-01",
+    "file": "firmware/asterisk-byok-javelin-2026-11-02-byok-ea6c493-pico-4ae748e.uf2",
+    "sha256": "04921d18e5994af4d1a09e38ee5c7de64c5be55c9671ea8d31e2c8ebd4546d0d",
+    "build_date": "2026-11-02",
     "board": "asterisk"
   },
   "upstream": {
     "javelin_steno": {
       "repo": "https://github.com/jthlim/javelin-steno",
-      "commit": "e093126"
+      "commit": "7efd1e1"
     },
     "javelin_steno_pico": {
       "repo": "https://github.com/jthlim/javelin-steno-pico",
-      "commit": "da5eb7c"
+      "commit": "ba31997"
     }
   },
   "source": {
     "javelin_steno_byok": {
       "repo": "https://github.com/jganiyu/javelin-steno",
-      "branch": "asterisk-byok",
-      "commit": "17e4f39"
+      "branch": "asterisk-byok-current",
+      "commit": "ea6c493"
     },
     "javelin_steno_pico_byok": {
       "repo": "https://github.com/jganiyu/javelin-steno-pico",
-      "branch": "asterisk-byok",
-      "commit": "ce5bd39"
+      "branch": "asterisk-byok-current",
+      "commit": "4ae748e"
     }
   },
   "compatibility": {

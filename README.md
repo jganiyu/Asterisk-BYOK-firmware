@@ -65,11 +65,11 @@ The custom firmware in this repository is firmware-only. It does not contain you
 
 ## Files
 
-- Latest firmware: `firmware/asterisk-byok-javelin-2026-11-01-byok-17e4f39-pico-ce5bd39.uf2`
+- Latest firmware: `firmware/asterisk-byok-javelin-2026-11-02-byok-ea6c493-pico-4ae748e.uf2`
 
 - Firmware retention: keep only the current production UF2 in `firmware/`; remove superseded UF2 files whenever firmware is updated.
 
-- `firmware/asterisk-byok-javelin-2026-11-01-byok-17e4f39-pico-ce5bd39.uf2`  
+- `firmware/asterisk-byok-javelin-2026-11-02-byok-ea6c493-pico-4ae748e.uf2`  
   Current tested custom Asterisk BYOK firmware. The filename includes the build date plus the public BYOK source branch commits used for compatibility tracking.
 
 - `firmware/build-info.json`  
@@ -85,8 +85,8 @@ The custom firmware in this repository is firmware-only. It does not contain you
 
 The source changes are public and reviewable:
 
-- [`jganiyu/javelin-steno`, branch `asterisk-byok`](https://github.com/jganiyu/javelin-steno/tree/asterisk-byok)
-- [`jganiyu/javelin-steno-pico`, branch `asterisk-byok`](https://github.com/jganiyu/javelin-steno-pico/tree/asterisk-byok)
+- [`jganiyu/javelin-steno`, branch `asterisk-byok-current`](https://github.com/jganiyu/javelin-steno/tree/asterisk-byok-current)
+- [`jganiyu/javelin-steno-pico`, branch `asterisk-byok-current`](https://github.com/jganiyu/javelin-steno-pico/tree/asterisk-byok-current)
 
 These branches are kept close to upstream Javelin so the firmware can be rebuilt when Javelin changes its dictionary format or builder output.
 
@@ -152,6 +152,6 @@ For questions about adapting this approach to another Javelin keyboard, start wi
 ## Checksums
 
 ```text
-f9631d274cdc7b11e71dec0fa445dc3ac1e87c36fe8d6ad28fff8cc97a426b09  firmware/asterisk-byok-javelin-2026-11-01-byok-17e4f39-pico-ce5bd39.uf2
+04921d18e5994af4d1a09e38ee5c7de64c5be55c9671ea8d31e2c8ebd4546d0d  firmware/asterisk-byok-javelin-2026-11-02-byok-ea6c493-pico-4ae748e.uf2
 30b96a9ef79edfe1676ad464e0489fc3dc427953e6457d363c97dfe431deaf71  dictionaries/javelin-toggles.json
 ```
