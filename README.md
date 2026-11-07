@@ -65,11 +65,11 @@ The custom firmware in this repository is firmware-only. It does not contain you
 
 ## Files
 
-- Latest firmware: `firmware/asterisk-byok-javelin-2026-11-02-byok-ea6c493-pico-4ae748e.uf2`
+- Latest firmware: `firmware/asterisk-byok-javelin-2026-11-07-byok-8dc4d33-pico-4ae748e.uf2`
 
 - Firmware retention: keep only the current production UF2 in `firmware/`; remove superseded UF2 files whenever firmware is updated.
 
-- `firmware/asterisk-byok-javelin-2026-11-02-byok-ea6c493-pico-4ae748e.uf2`  
+- `firmware/asterisk-byok-javelin-2026-11-07-byok-8dc4d33-pico-4ae748e.uf2`  
   Current tested custom Asterisk BYOK firmware. The filename includes the build date plus the public BYOK source branch commits used for compatibility tracking.
 
 - `firmware/build-info.json`  
@@ -152,6 +152,6 @@ For questions about adapting this approach to another Javelin keyboard, start wi
 ## Checksums
 
 ```text
-04921d18e5994af4d1a09e38ee5c7de64c5be55c9671ea8d31e2c8ebd4546d0d  firmware/asterisk-byok-javelin-2026-11-02-byok-ea6c493-pico-4ae748e.uf2
+3fc1476a48ea4b591ffa8c0a8304c32f3fa7714bd50af6365f5f8e83a7692be6  firmware/asterisk-byok-javelin-2026-11-07-byok-8dc4d33-pico-4ae748e.uf2
 30b96a9ef79edfe1676ad464e0489fc3dc427953e6457d363c97dfe431deaf71  dictionaries/javelin-toggles.json
 ```
